@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link>|
+      <router-link to="/zhedie">折叠</router-link>| <router-link to="/layout">layout</router-link>|
+      <router-link to="/permission">permission</router-link>
     </div>
     <router-view />
   </div>
@@ -19,6 +20,7 @@
 
 #nav {
   padding: 30px;
+  background-color: #ccc;
 
   a {
     font-weight: bold;
